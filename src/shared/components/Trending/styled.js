@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const C_Trendding = styled.section`
+  position: relative;
+
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -9,11 +11,12 @@ export const C_Trendding = styled.section`
   flex-wrap: wrap;
 
   .container {
+    position: relative;
     width: 50%;
     height: 50%;
     padding: 2rem 5rem;
   }
-  .container:nth-child(3n + 1) {
+  .container.list {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -74,8 +77,7 @@ export const C_Trendding = styled.section`
       }
     }
   }
-  .container:not(:nth-child(3n + 1)) {
-    position: relative;
+  .container.decoration {
     display: flex;
     justify-content: center;
     align-items: center;
