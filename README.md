@@ -1,5 +1,5 @@
-<h1 align="center">Sushi DevX</h1>
-<h3 align="center"></h3>
+<h1 align="center">React JS</h1>
+<h3 align="center">[Pagina web](https://dev-sushi.vercel.app/)</h3>
 
 <p align="center">
     
@@ -11,7 +11,7 @@
 
 ---
 
-Para desenvolver esta <strong>Pagina Web</strong> utilizei <strong>ReactJS </strong>e<strong> Styled Components</strong>, com o intuito de praticar o que venho estudando atualmente.
+Para desenvolver esta <strong>[Pagina web](https://dev-sushi.vercel.app/)</strong> utilizei <strong>ReactJS </strong>e<strong> Styled Components</strong>, com o intuito de praticar o que venho estudando atualmente.
 
 Para gerar a estrutura foi utilizado:
 
@@ -22,6 +22,10 @@ Foi utilizado as seguintes dependencias abaixo:
 - <strong>phosphor-react</strong>
 - <strong>react-router-dom</strong>
 - <strong>styled-components</strong>
+
+Para hospedagem foi usado:
+
+- <strong>[vercel](https://dev-sushi.vercel.app/)</strong>
 
 <!-- - <strong>Hooks</strong> -->
 
@@ -36,4 +40,5 @@ Mesmo ainda não trabalhando na área desejada, as minhas experiências profissi
 
 <br><br>
 Desenvolvido por Lucas Gomes
-Art @happywebdev
+<br>
+Art [@happywebdev](https://blog-challenge-chi.vercel.app)
