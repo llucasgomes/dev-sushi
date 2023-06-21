@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const C_NavBar = styled.header`
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 99;
   width: 100vw;
   height: 7rem;
-  padding: 0 5rem 0 8rem 0;
+  padding: 0 5rem 0 5rem 0;
   background-color: transparent;
   display: flex;
   justify-content: space-around;
