@@ -10,12 +10,12 @@ export const Home = () => {
   return (
     <>
       <NavBar />
-      <Hero />
+      {/*    <Hero />
       <About />
       <Foods />
       <Trending />
       <NewLetter />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
