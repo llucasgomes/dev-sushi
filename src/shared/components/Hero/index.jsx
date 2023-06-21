@@ -1,7 +1,7 @@
 import { Play } from "phosphor-react";
 import { Button, C_Hero } from "./styled";
-import Image_sushi from "../../../assets/Asset 1.png";
-import Profile from "../../../assets/profile.png";
+import Image_sushi from "../../../assets/images/Hero/image1.png";
+import Profile from "../../../assets/images/Hero/profile.png";
 
 export const Hero = () => {
   return (
