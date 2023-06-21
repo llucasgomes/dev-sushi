@@ -1,6 +1,6 @@
 import { C_About } from "./styled";
-import Sushi1 from "../../../assets/sushi1.png";
-import Sushi2 from "../../../assets/sushi2.png";
+import Sushi1 from "../../../assets/images/About/sushi1.png";
+import Sushi2 from "../../../assets/images/About/sushi2.png";
 
 export const About = () => {
   return (
