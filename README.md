@@ -2,8 +2,8 @@
 <h3 align="center"></h3>
 
 <p align="center">
-   <img src="https://github.com/llucasgomes/blog-challenge/blob/main/src/assets/images/desc1.png" alt="Imagem Pagina de Descrição Post com Comentarios"/>  
-   <img src="https://github.com/llucasgomes/blog-challenge/blob/main/src/assets/images/desc2.png" alt="Imagem Pagina de Descrição Post com Comentarios"/>  
+    
+   <img src="https://github.com/llucasgomes/dev-sushi/blob/main/src/assets/images/showcase/Japanese-Food-Landing-Page.png" alt="Imagem Pagina Japanese Food Landing Page"/>  
   
 </p>
 
