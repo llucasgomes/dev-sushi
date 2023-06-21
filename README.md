@@ -1,11 +1,10 @@
 <h1 align="center">React JS</h1>
-<h3 align="center">[Pagina web](https://dev-sushi.vercel.app/)</h3>
+<h3 align="center">Sushi Dev</h3>
 
 <p align="center">
     
    <img src="https://github.com/llucasgomes/dev-sushi/blob/main/src/assets/images/showcase/Japanese-Food-Landing-Page.png" alt="Imagem Pagina Japanese Food Landing Page"/>  
-  
-</p>
+
 
 ## 🔖&nbsp; Sobre
 
@@ -25,7 +24,7 @@ Foi utilizado as seguintes dependencias abaixo:
 
 Para hospedagem foi usado:
 
-- <strong>[vercel](https://dev-sushi.vercel.app/)</strong>
+- <strong>vercel</strong>
 
 <!-- - <strong>Hooks</strong> -->
 
