@@ -5,14 +5,8 @@ import {
   Card_Primary,
   Card_Secondary,
 } from "./styled";
-import Danggoo from "../../../assets/images/types-pratos/danggo.png";
-import Ramen from "../../../assets/images/types-pratos/ramen.png";
-import Sushi from "../../../assets/images/types-pratos/sushi.png";
-import Udon from "../../../assets/images/types-pratos/udon.png";
 
-import Carrousel_Sushi from "../../../assets/images/carrousel/sushi.png";
-import Carrousel_Chezu from "../../../assets/images/carrousel/chezu.png";
-import Carrousel_Ramen from "../../../assets/images/carrousel/ramen.png";
+import { Imagens } from "../../../assets/data/images.js";
 
 import {
   ArrowCircleLeft,
@@ -22,73 +16,27 @@ import {
 } from "phosphor-react";
 
 export const Foods = () => {
-  const typesPratos = [
-    {
-      image: "",
-      prato: "All",
-    },
-    {
-      image: Danggoo,
-      prato: "Danggoo",
-    },
-    {
-      image: Ramen,
-      prato: "Ramen",
-    },
-    {
-      image: Sushi,
-      prato: "Sushi",
-    },
-    {
-      image: Udon,
-      prato: "Udon",
-    },
-    {
-      image: "",
-      prato: "Others",
-    },
-  ];
-
-  const carrousel = [
-    {
-      image: Carrousel_Chezu,
-      title_prato: "Chezu Sushi",
-      point: "4.7",
-      price: "16.00",
-    },
-    {
-      image: Carrousel_Sushi,
-      title_prato: "Originale Sushi",
-      point: "4.8",
-      price: "21.00",
-    },
-    {
-      image: Carrousel_Ramen,
-      title_prato: "Ramen Legendo",
-      point: "4.7",
-      price: "16.00",
-    },
-  ];
-
   return (
     <C_Foods>
       <h2 className="title">Popular Foods / 人気 </h2>
       <div className="tipos">
-        {typesPratos.map((item, index) => {
+        <Button prato={"All"}>All</Button>
+        {Imagens[0].types_pratos.map((item, index) => {
           return (
-            <Button key={index} prato={item.prato} image={item.image}>
+            <Button key={index} prato={item.name} image={item.img}>
               {" "}
-              {item.image && (
+              {item.name && (
                 <img
-                  src={item.image}
-                  alt={` imagem ${item.prato}`}
+                  src={item.img}
+                  alt={` imagem ${item.name}`}
                   className="imagem"
                 />
               )}
-              {item.prato}
+              {item.name}
             </Button>
           );
         })}
+        <Button>Others</Button>
       </div>
       <div className="carrosel">
         <ArrowCircleRight
@@ -103,10 +51,10 @@ export const Foods = () => {
           color="#fafafa"
           weight="thin"
         />
-        {carrousel.map((item, index) => {
+        {Imagens[1].carrousel.map((item, index) => {
           return index == 1 ? (
             <Card_Primary key={index} destaque={index}>
-              <img src={item.image} alt={item.title_prato} className="image" />
+              <img src={item.img} alt={item.title_prato} className="image" />
               <h3 className="title">{item.title_prato}</h3>
               <div className="star-value">
                 <span className="satifation">
@@ -118,7 +66,7 @@ export const Foods = () => {
             </Card_Primary>
           ) : (
             <Card_Secondary key={index} destaque={index}>
-              <img src={item.image} alt={item.title_prato} className="image" />
+              <img src={item.img} alt={item.title_prato} className="image" />
               <h3 className="title">{item.title_prato}</h3>
               <div className="star-value">
                 <span className="satifation">
